@@ -1,0 +1,216 @@
+* {
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+}
+body {
+    margin: 0px;
+    background-color: white ;
+}
+.container{
+    width: 1250px;
+    height: auto;
+    margin: 10px auto;
+    background-color: #000000;
+}
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+}
+.logo-holder img{
+    width: 100px;
+}
+
+
+.main-menu {
+    background-color: black;
+    color: white;
+    z-index: 1;
+    position: relative;
+}
+
+.main-menu > ul {
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+    display: flex;
+    justify-content: start;
+}
+
+.main-menu > ul > li > a {
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: inline-block;
+    font-size: 1em;
+}
+.main-menu > ul > li > a:hover {
+    background-color: #d00000;
+    margin: 10px 1px -30px !important; 
+    padding: 5px;
+    border: 0px;
+    border-radius: 5px;
+}
+
+.main-menu form input{
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+    position: absolute;
+    display: none;
+}
+.main-menu form > button{
+    background-color: #d00000;
+    color: white;
+    /* position: relative; */
+    margin: 10px 1px -30px !important; 
+    padding: 5px;
+    border: 0px;
+    border-radius: 5px;
+    display: inline-block;
+    box-shadow: none;
+    font-size: 1em;
+}
+.main-menu form:hover input{
+    /* border: 1px solid gainsboro;  */
+    padding: 12px; 
+    display: inline-block;
+}
+.drop{
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+    position: absolute;
+    display: none;
+}
+.drop > li > a {
+    color: #bd1c1c;
+    text-decoration: none;
+    padding: 15px;
+    background-color: white;
+    display: inline-block;
+    width: 100%;
+    margin: 10px 1px -30px !important;  
+    padding: 5px; 
+    border: 0px; 
+    border-radius: 5px; 
+}
+
+.drop > li > a:hover {
+    background-color: #bd1c1c;
+    color: white;
+    margin: 10px 1px -30px !important; 
+    padding: 5px;
+    border: 0px;
+    border-radius: 5px;
+}
+
+.main-menu > ul > li:hover .drop {
+    display: block;
+    /* margin: 10px 1px -30px !important; 
+    padding: 5px; */
+    border: 0px;
+    border-radius: 5px;
+}
+
+.content-holder {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    padding: 2%;
+}
+.lSSlideOuter .lSPager, .lSSlideOuter .lightSlider {
+    margin-top: -25px !important;
+}
+
+.content-holder .content {
+    padding: 25px;
+    background-color: white;
+    width: 80%;
+}
+
+.content-holder .content h2 { 
+    font-size: 1em;
+    color: rgb(2, 2, 2);
+    width: 80%;
+}
+.content-holder .content h1 { 
+    font-size: 3em;
+    color: #bd1c1c;
+}
+
+.sidebar {
+    padding: 3%;
+    margin-top: 21px;
+}
+
+.sidebar .widget ul {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+.sidebar .widget {
+    /* list-style-type: none; */
+    text-align: center;
+}
+.sidebar .widget h3 {
+    /* list-style-type: none; */
+    text-align: center;
+    color: #bd1c1c;
+}
+.sidebar .widget > ul > li > a {
+    /* display: block; */
+    color: #000000;
+    /* background-color: #000000; */
+    text-decoration: none;
+}
+.sidebar .widget > ul > li > a:hover {
+    /* display: block; */
+    color: white;
+    background-color: #d62828;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.footer-widget-holder  {
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    padding: 3% 2%;
+    text-align: center;
+    background-color: #000000;
+
+}
+/* .footer-widget-holder .footer-widget h4 {
+    text-align: center;
+    list-style-type: none;
+} */
+.footer-widget ul {
+    text-align: center;
+    list-style-type: none;
+}
+
+.footer-widget a {
+    /* display: block; */
+    color: white;
+    /* background-color: #000000; */
+    text-decoration: none;
+}
+.footer-widget a:hover {
+    /* display: block; */
+    color: #bd1c1c;
+    background-color: white;
+    list-style-type: none;
+    text-decoration: none;
+}
+.footer-widget-holder .footer-widget img{
+    width: 100px;
+    /* display: flex;
+    justify-self: end; */
+}
+
+.site-footer{
+    color: white;
+    font-size: 1em;
+    padding: 1px 10px;
+}
