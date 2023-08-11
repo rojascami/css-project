@@ -21,7 +21,6 @@ body {
     width: 100px;
 }
 
-
 .main-menu {
     background-color: black;
     color: white;
@@ -62,7 +61,6 @@ body {
 .main-menu form > button{
     background-color: #d00000;
     color: white;
-    /* position: relative; */
     margin: 10px 1px -30px !important; 
     padding: 5px;
     border: 0px;
@@ -72,7 +70,6 @@ body {
     font-size: 1em;
 }
 .main-menu form:hover input{
-    /* border: 1px solid gainsboro;  */
     padding: 12px; 
     display: inline-block;
 }
@@ -107,8 +104,6 @@ body {
 
 .main-menu > ul > li:hover .drop {
     display: block;
-    /* margin: 10px 1px -30px !important; 
-    padding: 5px; */
     border: 0px;
     border-radius: 5px;
 }
@@ -150,18 +145,15 @@ body {
     margin: 0px;
 }
 .sidebar .widget {
-    /* list-style-type: none; */
+
     text-align: center;
 }
 .sidebar .widget h3 {
-    /* list-style-type: none; */
     text-align: center;
     color: #bd1c1c;
 }
 .sidebar .widget > ul > li > a {
-    /* display: block; */
     color: #000000;
-    /* background-color: #000000; */
     text-decoration: none;
 }
 .sidebar .widget > ul > li > a:hover {
